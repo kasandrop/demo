@@ -29,29 +29,29 @@ CREATE TABLE IF NOT EXISTS User (
  );
 
  INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  1,'Chairman','passVladimir','Vladimir','Lenin',strftime('%s','30-12-1922'),'07511111111','lenin@lenin.com');
+  1,'dictator','passVladimir','Vladimir','Lenin',strftime('%s','30-12-1922'),'07511111111','lenin@lenin.com');
 
   INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  4,'generalSecretary','passJoseph','Joseph','Stalin',strftime('%s','21-01-1924'),'07512222222','stalin@stalin.com');
+  4,'murderer','passJoseph','Joseph','Stalin',strftime('%s','21-01-1924'),'07512222222','stalin@stalin.com');
 
   INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  2,'premier','passGeorgy','Georgy','Malenkov',strftime('%s','05-03-1953'),'07533333333','malenkov@malenkov.com');
+  2,'collaborator','passGeorgy','Georgy','Malenkov',strftime('%s','05-03-1953'),'07533333333','malenkov@malenkov.com');
 
   INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  2,'Chairman','passNikita','Nikita','Khrushchev',strftime('%s','30-12-1922'),'07511111111','lenin@lenin.com');
+  2,'denunciator','passNikita','Nikita','Khrushchev',strftime('%s','30-12-1922'),'075777777','khrushchev@khrushchev.com');
 
   INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  2,'Chairman','password1','Vladimir','Lenin',strftime('%s','30-12-1922'),'07511111111','lenin@lenin.com');
+  2,'interferer','passBrezniev','Leonid','Brezhnev',strftime('%s','14-10-1964'),'07588888888','brezhnev@brezhnev.com');
 
   INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  2,'Chairman','password1','Vladimir','Lenin',strftime('%s','30-12-1922'),'07511111111','lenin@lenin.com');
+  2,'forger','passYuri','Yuri','Andropov',strftime('%s','12-11-1982'),'07511111111','andropov@andropov.com');
 
 
   INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  3,'Chairman','password1','Vladimir','Lenin',strftime('%s','30-12-1922'),'07511111111','lenin@lenin.com');
+  3,'granddaddy','passKonstantin','Konstantin','Chernenko',strftime('%s','13-02-1984'),'075999999','chernenko@chernenko.com');
 
   INSERT INTO USER(typeOfUserId, username,password,firstName,surname,dateOfBirth,mobileNumber,emailAddress) VALUES (
-  3,'Chairman','password1','Vladimir','Lenin',strftime('%s','30-12-1922'),'07511111111','lenin@lenin.com');
+  3,'revolutionist','passMikhail','Mikhail','Gorbachev',strftime('%s','11-03-1985'),'0785641111','gorbachev@gorbachev.com');
 
 
 INSERT INTO TypeOfUser(typeOfUserId,role
